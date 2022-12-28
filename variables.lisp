@@ -13,7 +13,7 @@
 )
 
 (setf input *args*)
-(setf n (parse-integer (nth 0 input)))
+(setf n (parse-integer (first input)))
 (pprint n)
 
 (setf output-variable (one-variable n))
